@@ -26,6 +26,12 @@
   flex-wrap: wrap;
   font-size: 23px;
 }
+.navbarList ul li a {
+  color: black;
+}
+.navbarList ul li a:hover {
+  color: red;
+}
 .navbarRightSide {
   width: 100%;
   align-items: center;
@@ -67,6 +73,12 @@
   font-size: 22px;
   height: 100%;
   text-align: center;
+}
+#likeBtn {
+  color: var(--color-text);
+}
+#likeBtn:hover {
+  color: red;
 }
 @media (max-width: 860px) {
   .navbarbody {

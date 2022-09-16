@@ -45,6 +45,16 @@
   text-align: center;
   font-size: 22px;
 }
+.cardTextBody button {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.cardTextBody button:hover {
+  color: red;
+  background-color: white;
+}
 
 @media (max-width: 860) {
   /* .dateInput {

@@ -27,7 +27,14 @@
 .App-link {
   color: #61dafb;
 }
-
+.appBuy{
+  margin-top: 5%;
+  text-align: center;
+}
+.appSell{
+  margin-top: 5%;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

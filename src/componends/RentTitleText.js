@@ -16,9 +16,10 @@ function RentTitleText(props) {
           </div>
           <div className="noteList">
             <ul>
-              <li>Press the button(search/show) to show all cards</li>
-              <li>Answer all Filter Bar questions</li>
-              <li>The filter bar and search bar filter the card separately</li>
+              <li>Press the button(search/show) to show all cards.</li>
+              <li>Answer all Filter Bar questions.</li>
+              <li>The filter bar and search bar filter the card separately.</li>
+              <li>Please try to move pages through the navbar.</li>
               <li>Thank You</li>
             </ul>
           </div>

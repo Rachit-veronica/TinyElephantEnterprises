@@ -2,12 +2,8 @@ import React, { useState } from "react";
 import cardData from "./cardData.json";
 
 function RentCard(props) {
-  // let [press, setPress] = useState(true);
-  // let i = 0;
-  // let likeVal = [];
-  // console.log(likeVal);
   const likeVal = [];
-
+  let i = 0;
   return (
     <div className="cardBody">
       {cardData
@@ -41,12 +37,18 @@ function RentCard(props) {
           }
         })
         .map((item) => {
-          const likeFunction = () => {
-            for (var i = 0; i < 3; i++) {
-              likeVal[i] = item;
-              console.log(likeVal);
+          const likeFunction = (Event) => {
+            Event.preventDefault();
+            document.documentElement.style.setProperty("--color-text", "red");
+            likeVal[i] = item;
+            props.onClick(likeVal);
+            {
+              /* console.log(likeVal); */
             }
+            alert("Card Added on Like section page");
+            i++;
           };
+
           return (
             <div className="cardItemBody">
               <div className="cardItem">
