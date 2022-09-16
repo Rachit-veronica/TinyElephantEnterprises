@@ -1,0 +1,55 @@
+.cardBody {
+  margin-top: 7%;
+  max-width: 100%;
+}
+.cardItemBody {
+  margin-left: 3%;
+  width: 22rem;
+  margin-bottom: 5%;
+  height: min-content;
+  display: inline-block;
+  margin-right: 3%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.cardItemBody img {
+  width: 100%;
+}
+.cardTextBody {
+  margin-top: 0%;
+  background-color: rgb(226, 225, 225);
+}
+.cardImg {
+  height: min-content;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+.cardText {
+  width: 90%;
+  margin-top: 0%;
+  text-align: start;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.requred ul li {
+  display: inline-flex;
+  margin: 2%;
+}
+.cardText button {
+  float: right;
+  width: 15%;
+  height: 25px;
+}
+.cardText p {
+  margin: 2%;
+  text-align: center;
+  font-size: 22px;
+}
+
+@media (max-width: 860) {
+  /* .dateInput {
+      display: grid;
+      grid-template-columns: 100%;
+      grid-template-rows: min-content;
+    } */
+}

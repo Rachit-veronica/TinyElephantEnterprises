@@ -1,0 +1,168 @@
+.filter {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 39% 2% 39% 20%;
+  grid-template-rows: min-content;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.firstCol {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+}
+.location {
+  max-width: 100%;
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.location select {
+  margin-top: 2%;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2%;
+}
+.date {
+  max-width: 100%;
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.dateInput {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: min-content min-content;
+}
+.dateInput select {
+  margin-top: 2%;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2%;
+}
+.secondCol {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+}
+.price {
+  max-width: 100%;
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.price select {
+  margin-top: 2%;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 0%;
+}
+.property {
+  max-width: 100%;
+  text-align: start;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.property select {
+  margin-top: 2%;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 2%;
+}
+.thirdCol {
+  max-width: 100%;
+}
+
+.locationText {
+  display: inline-flex;
+}
+.locationText h1 {
+  margin-left: 0%;
+  top: 0%;
+  color: red;
+}
+.locationText p {
+  margin-top: 10%;
+  font-size: 22px;
+  font-weight: 700;
+}
+.dateText {
+  display: inline-flex;
+}
+.dateText p {
+  margin-top: 10%;
+  font-size: 22px;
+  font-weight: 700;
+}
+.dateText h1 {
+  margin-left: 0%;
+  top: 0%;
+  color: red;
+}
+#moveText {
+  top: 0%;
+  font-size: larger;
+}
+.priceText {
+  display: inline-flex;
+}
+.priceText p {
+  margin-top: 10%;
+  font-size: 22px;
+  font-weight: 700;
+}
+.priceText h1 {
+  margin-left: 0%;
+  top: 0%;
+  color: red;
+}
+.propertyText {
+  display: inline-flex;
+}
+.propertyText p {
+  margin-top: 10%;
+  font-size: 22px;
+  font-weight: 700;
+}
+.propertyText h1 {
+  margin-left: 0%;
+  top: 0%;
+  color: red;
+}
+.searchBtn button {
+  margin-top: 13%;
+  width: 80%;
+  height: 30px;
+  color: white;
+  background-color: #7065ef;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size:18px;
+  font-weight: 400;
+}
+.searchBtn button:hover {
+  color: #7065ef;
+  background-color: white;
+  border: 2px solid black;
+}
+@media (max-width: 860px) {
+  .filter {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  }
+  .firstCol {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 49% 2% 49%;
+    margin-bottom: 5%;
+  }
+
+}

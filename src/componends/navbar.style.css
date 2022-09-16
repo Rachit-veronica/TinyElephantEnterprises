@@ -1,0 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.navbarbody {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: min-content;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+}
+.navbarList {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: min-content;
+}
+.navbarLeftSide {
+  width: 100%;
+}
+.navbarList ul li {
+  display: inline-flex;
+  margin: 2%;
+  flex-wrap: wrap;
+  font-size: 23px;
+}
+.navbarRightSide {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.navbarRightSide button {
+  margin: 5%;
+  width: 30%;
+  height: 50%;
+  text-align: center;
+  justify-content: center;
+  background-color: #7065ef;
+  color: white;
+  font-size: large;
+}
+#loginBtn {
+  background-color: white;
+  color: #7065ef;
+  border-radius: 10px;
+}
+#loginBtn:hover {
+  background-color: #7065ef;
+  color: white;
+}
+#signBtn {
+  background-color: #7065ef;
+  color: white;
+  border-radius: 10px;
+}
+#signBtn:hover {
+  background-color: white;
+  color: #7065ef;
+}
+.navbarList select {
+  width: 100%;
+  height: 30px;
+}
+.logo {
+  font-size: 22px;
+  height: 100%;
+  text-align: center;
+}
+@media (max-width: 860px) {
+  .navbarbody {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  }
+  .navbarList {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content;
+  }
+  .navbarList ul {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .logo {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .navbarRightSide button {
+    margin: 5%;
+    width: 30%;
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+  }
+}
